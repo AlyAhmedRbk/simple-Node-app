@@ -4,4 +4,4 @@ const add = (a, b) =>{
   return a+b
 }
 
-console.log(add(5,5));
+console.log("Sum of the value = ",add(5,5));
