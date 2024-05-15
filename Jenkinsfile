@@ -5,13 +5,13 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building App...'
-                bat  'node --version'
+                sh  'node --version'
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing App...'
-                bat 'node app.js'
+                sh 'node app.js'
             }
         }
     }
