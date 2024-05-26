@@ -13,7 +13,7 @@ pipeline {
                 echo 'Testing App...'
                 sh "node app.js"
                 //sh 'gcloud compute zones list'
-                //#!/bin/bash
+                #!/bin/bash
                 echo "This is my IP"
                 curl -s ifconfig.co
                 echo "This is my hostname"
