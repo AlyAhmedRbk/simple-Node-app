@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo 'Testing App...'
                 sh "node app.js"
-                //sh 'gcloud compute zones list'
+                sh 'gcloud compute zones list'
 
             }
         }
